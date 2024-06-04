@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\cpp_base\\03_01\\",
+  "WorkspaceRootPath": "D:\\Project\\cpp_base\\03\u3001\u521D\u5B66C\u002B\u002B\\03_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE32A8FB-5099-4B20-B9FF-5A39A0151820}|03_01\\03_01.vcxproj|D:\\Project\\cpp_base\\03_01\\03_01\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CE32A8FB-5099-4B20-B9FF-5A39A0151820}|03_01\\03_01.vcxproj|D:\\Project\\cpp_base\\03\u3001\u521D\u5B66C\u002B\u002B\\03_01\\03_01\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CE32A8FB-5099-4B20-B9FF-5A39A0151820}|03_01\\03_01.vcxproj|solutionrelative:03_01\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\Project\\cpp_base\\03_01\\03_01\\main.cpp",
+              "DocumentMoniker": "D:\\Project\\cpp_base\\03\u3001\u521D\u5B66C\u002B\u002B\\03_01\\03_01\\main.cpp",
               "RelativeDocumentMoniker": "03_01\\main.cpp",
-              "ToolTip": "D:\\Project\\cpp_base\\03_01\\03_01\\main.cpp",
+              "ToolTip": "D:\\Project\\cpp_base\\03\u3001\u521D\u5B66C\u002B\u002B\\03_01\\03_01\\main.cpp",
               "RelativeToolTip": "03_01\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
