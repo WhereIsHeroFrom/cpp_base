@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Project\09_01\09_01\main.cpp(32,13): warning C4477: “printf”: 格式字符串“%#X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“char *”
+D:\Project\09_01\09_01\main.cpp(32,13): warning C4313: "printf": 格式字符串中的 "%X" 与类型为 "char *" 的参数 1 冲突
+  09_01.vcxproj -> D:\Project\09_01\09_01\x64\Debug\09_01.exe

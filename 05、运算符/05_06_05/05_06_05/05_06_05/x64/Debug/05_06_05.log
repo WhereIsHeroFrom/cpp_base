@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Project\05_06_05\05_06_05\main.cpp(27,9): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+  05_06_05.vcxproj -> D:\Project\05_06_05\05_06_05\x64\Debug\05_06_05.exe
