@@ -1,4 +1,0 @@
-﻿  main.cpp
-D:\Project\04_01\04_01\main.cpp(15,12): warning C4309: “初始化”: 截断常量值
-D:\Project\04_01\04_01\main.cpp(16,10): warning C4309: “初始化”: 截断常量值
-  04_01.vcxproj -> D:\Project\04_01\04_01\x64\Debug\04_01.exe
