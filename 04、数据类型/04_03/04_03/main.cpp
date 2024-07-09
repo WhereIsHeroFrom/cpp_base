@@ -17,7 +17,7 @@ int main() {
 	double c = 1.5e5;  // 1.5 x 100000
 	double d = 1.5e-5;  // 1.5 x 10-5
 	cout << setprecision(10) << a << endl;
-	cout << setprecision(26) << b << endl;
+	cout << setprecision(18) << b << endl;
 	cout << c << endl;
 	cout << d << endl;
 	double x = 1.0 / 234324247 * 234324247;
