@@ -25,5 +25,8 @@ int main() {
 	bool e = false;
 	cin >> e;
 	cout << "e的值变成了：" << e << endl;
+    string f;
+    cin >> f;
+    cout << "f的值变成了：" << f << endl;
 	return 0;
 }
