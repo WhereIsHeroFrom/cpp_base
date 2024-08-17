@@ -21,6 +21,16 @@ https://acm.hdu.edu.cn/showproblem.php?pid=2023
 3.33 4.67
 1
 
+7 5
+1 2 3 4 5
+5 4 3 2 1
+6 5 4 3 2
+2 3 4 5 6
+9 9 9 9 9
+8 8 8 8 8
+7 7 7 7 7
+
+
 */
 
 #include <iostream>
