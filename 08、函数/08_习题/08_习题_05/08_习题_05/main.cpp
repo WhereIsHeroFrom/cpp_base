@@ -1,13 +1,13 @@
 /*
-HDOJ 2012 ËØÊýÅÐ¶¨
+HDOJ 2012 ç´ æ•°åˆ¤å®š
 https://acm.hdu.edu.cn/showproblem.php?pid=2012
 
-¶ÔÓÚ±í´ïÊ½n^2+n+41
-µ±nÔÚ£¨x,y£©·¶Î§ÄÚÈ¡ÕûÊýÖµÊ±£¨°üÀ¨x,y£©(-39<=x<y<=50)
-ÅÐ¶¨¸Ã±í´ïÊ½µÄÖµÊÇ·ñ¶¼ÎªËØÊý
+å¯¹äºŽè¡¨è¾¾å¼n^2+n+41
+å½“nåœ¨ï¼ˆx,yï¼‰èŒƒå›´å†…å–æ•´æ•°å€¼æ—¶ï¼ˆåŒ…æ‹¬x,yï¼‰(-39<=x<y<=50)
+åˆ¤å®šè¯¥è¡¨è¾¾å¼çš„å€¼æ˜¯å¦éƒ½ä¸ºç´ æ•°
 
-ÊäÈë£º·´¸´ÊäÈë x ºÍ y£¬µ± x ºÍ y ¶¼Îª 0 µÄÊ±ºò£¬³ÌÐò½áÊø
-Êä³ö£ºÈç¹ûÂú×ã¶¼ÊÇËØÊý£¬ÔòÊä³ö OK£¬·ñÔòÊä³ö Sorry
+è¾“å…¥ï¼šåå¤è¾“å…¥ x å’Œ yï¼Œå½“ x å’Œ y éƒ½ä¸º 0 çš„æ—¶å€™ï¼Œç¨‹åºç»“æŸ
+è¾“å‡ºï¼šå¦‚æžœæ»¡è¶³éƒ½æ˜¯ç´ æ•°ï¼Œåˆ™è¾“å‡º OKï¼Œå¦åˆ™è¾“å‡º Sorry
 
 */
 
@@ -15,8 +15,8 @@ https://acm.hdu.edu.cn/showproblem.php?pid=2012
 using namespace std;
 
 //
-//   x   ÓÐÒ»¸öÒò×Ó½Ð i£¬ÄÇÃ´±ØÈ»ÓÐÁíÒ»¸öÒò×Ó½Ð x/i
-//    i ºÍ x/i ±ØÈ»ÓÐ¸ö´óÐ¡¹ØÏµ£¬ÎÞÂÛ´óÐ¡¹ØÏµÔõÑù£¬¶¼ÄÜÍÆµ¼³ö i <= ¸ùºÅx
+//   x   æœ‰ä¸€ä¸ªå› å­å« iï¼Œé‚£ä¹ˆå¿…ç„¶æœ‰å¦ä¸€ä¸ªå› å­å« x/i
+//    i å’Œ x/i å¿…ç„¶æœ‰ä¸ªå¤§å°å…³ç³»ï¼Œæ— è®ºå¤§å°å…³ç³»æ€Žæ ·ï¼Œéƒ½èƒ½æŽ¨å¯¼å‡º i <= æ ¹å·x
 bool isPrime(int x) {
     for (int i = 2; i*i <= x; ++i) {
         if (x % i == 0) {

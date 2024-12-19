@@ -5,7 +5,7 @@ int main() {
 	int x = 6;
 	int y = 9;
 
-	x = y;   // ½« y µÄÖµ¸³Öµ¸ø x
+	x = y;   // å°† y çš„å€¼èµ‹å€¼ç»™ x
 	cout << x << endl;
 
 	x += y; // x = x + y;

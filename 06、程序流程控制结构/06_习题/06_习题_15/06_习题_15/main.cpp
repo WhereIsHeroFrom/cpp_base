@@ -2,8 +2,8 @@
 HDOJ 2052 Picture
 https://acm.hdu.edu.cn/showproblem.php?pid=2052
 
-ÊäÈë£º·´¸´ÊäÈë n ºÍ m
-Êä³ö£ºÊä³öÒ»¸ö m x n µÄ¾ØÐÎ
+è¾“å…¥ï¼šåå¤è¾“å…¥ n å’Œ m
+è¾“å‡ºï¼šè¾“å‡ºä¸€ä¸ª m x n çš„çŸ©å½¢
 
 3 2
 
@@ -19,13 +19,13 @@ using namespace std;
 int main() {
     int n, m;
     while (cin >> n >> m) {
-        // 1¡¢µÚÒ»ÐÐ
+        // 1ã€ç¬¬ä¸€è¡Œ
         cout << '+';
         for (int i = 0; i < n; ++i) {
             cout << '-';
         }
         cout << '+' << endl;
-        // 2¡¢ÖÐ¼äµÄÐÐ
+        // 2ã€ä¸­é—´çš„è¡Œ
         for (int i = 0; i < m; ++i) {
             cout << '|';
             for (int j = 0; j < n; ++j) {
@@ -33,7 +33,7 @@ int main() {
             }
             cout << '|' << endl;
         }
-        // 3¡¢×îºóÒ»ÐÐ
+        // 3ã€æœ€åŽä¸€è¡Œ
         cout << '+';
         for (int i = 0; i < n; ++i) {
             cout << '-';

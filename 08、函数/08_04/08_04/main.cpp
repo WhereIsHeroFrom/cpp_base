@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// ÉùÃ÷
+// Ã‰Ã¹ÃƒÃ·
 int add(int, int);
 void func2(int);
 

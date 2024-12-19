@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	int a12_ = 1314;
-	// int 8a_ = 520;    标识符的第一个字符不能是数字
+	// int 8a_ = 520;    鏍囪瘑绗︾殑绗竴涓瓧绗︿笉鑳芥槸鏁板瓧
 	int a = 5;
 	int A = 6;
 	cout << a << A << endl;

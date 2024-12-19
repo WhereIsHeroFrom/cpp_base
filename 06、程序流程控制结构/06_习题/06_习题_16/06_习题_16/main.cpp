@@ -2,8 +2,8 @@
 HDOJ 2071 Max Num
 https://acm.hdu.edu.cn/showproblem.php?pid=2071
 
-ÊäÈë£ºÊäÈëÒ»¸öt£¬´ú±ít×éÊý¾Ý£¬Ã¿×éÊý¾ÝÊäÈëÒ»¸ön£¬ÒÔ¼°n¸ö¸¡µãÊý
-Êä³ö£º¶ÔÓÚÃ¿×éÊý¾Ý£¬Êä³öÕân¸öÊýÖÐµÄ×î´óÖµ
+è¾“å…¥ï¼šè¾“å…¥ä¸€ä¸ªtï¼Œä»£è¡¨tç»„æ•°æ®ï¼Œæ¯ç»„æ•°æ®è¾“å…¥ä¸€ä¸ªnï¼Œä»¥åŠnä¸ªæµ®ç‚¹æ•°
+è¾“å‡ºï¼šå¯¹äºŽæ¯ç»„æ•°æ®ï¼Œè¾“å‡ºè¿™nä¸ªæ•°ä¸­çš„æœ€å¤§å€¼
 
 */
 

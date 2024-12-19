@@ -1,9 +1,9 @@
 /*
-HDOJ 2003 Çó¾ø¶ÔÖµ
+HDOJ 2003 æ±‚ç»å¯¹å€¼
 https://acm.hdu.edu.cn/showproblem.php?pid=2003
 
-ÊäÈë£º·´¸´ÊäÈëÒ»¸öÊµÊýx
-Êä³ö£ºÊä³ö x µÄ¾ø¶ÔÖµ£¬±£ÁôÁ½Î»Ð¡Êý
+è¾“å…¥ï¼šåå¤è¾“å…¥ä¸€ä¸ªå®žæ•°x
+è¾“å‡ºï¼šè¾“å‡º x çš„ç»å¯¹å€¼ï¼Œä¿ç•™ä¸¤ä½å°æ•°
 */
 
 #include <iostream>

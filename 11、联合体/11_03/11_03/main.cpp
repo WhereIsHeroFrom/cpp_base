@@ -19,17 +19,17 @@ struct Info {
 
 int main() {
     Info a[4] = {
-        Info("����ʦ", 0, -1, "CGaGa"),
-        Info("����ʦ", 0, -1, "Python"),
-        Info("��ͬѧ", 1, 90, ""),
-        Info("Фͬѧ", 1, 88, ""),
+        Info("周老师", 0, -1, "CGaGa"),
+        Info("周老师", 0, -1, "Python"),
+        Info("周同学", 1, 90, ""),
+        Info("肖同学", 1, 88, ""),
     };
     for (int i = 0; i < 4; ++i) {
         if (a[i]._role == 0) {
-            cout << a[i]._name << "��һλ��ʦ�����ǽ�" << a[i]._sc.course << "��" << endl;
+            cout << a[i]._name << "是一位老师，他是教" << a[i]._sc.course << "的" << endl;
         }
         else if(a[i]._role == 1) {
-            cout << a[i]._name << "��һλѧ�������ķ�����" << a[i]._sc.score << endl;
+            cout << a[i]._name << "是一位学生，他的分数是" << a[i]._sc.score << endl;
         }
     }
 

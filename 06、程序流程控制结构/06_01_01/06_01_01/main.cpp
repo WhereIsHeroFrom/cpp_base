@@ -7,7 +7,7 @@ int main() {
 	cin >> a;
 
 	if (a % 2) {
-		cout << "a ÊÇÒ»¸öÆæÊý" << endl;
+		cout << "a æ˜¯ä¸€ä¸ªå¥‡æ•°" << endl;
 		a = 9;
 	}
 	

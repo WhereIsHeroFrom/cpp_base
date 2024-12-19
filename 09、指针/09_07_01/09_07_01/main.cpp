@@ -1,42 +1,42 @@
 #include <iostream>
 using namespace std;
 
-// º¯ÊýµÄÖµ´«µÝ
+// å‡½æ•°çš„å€¼ä¼ é€’
 void swap(int a, int b) {
-    cout << "µ÷ÓÃº¯Êýºó a µÄµØÖ· = " << &a << endl;
-    cout << "µ÷ÓÃº¯Êýºó b µÄµØÖ· = " << &b << endl;
+    cout << "è°ƒç”¨å‡½æ•°åŽ a çš„åœ°å€ = " << &a << endl;
+    cout << "è°ƒç”¨å‡½æ•°åŽ b çš„åœ°å€ = " << &b << endl;
     int temp = a;
     a = b;
     b = temp;
 }
 
-// º¯ÊýµÄÖ·´«µÝ
+// å‡½æ•°çš„å€ä¼ é€’
 void swap(int* a, int* b) {
-    cout << "µ÷ÓÃº¯Êýºó a µÄµØÖ· = " << a << endl;
-    cout << "µ÷ÓÃº¯Êýºó b µÄµØÖ· = " << b << endl;
+    cout << "è°ƒç”¨å‡½æ•°åŽ a çš„åœ°å€ = " << a << endl;
+    cout << "è°ƒç”¨å‡½æ•°åŽ b çš„åœ°å€ = " << b << endl;
     cout << "----------------" << endl;
     int temp = *a;
-    cout << "µ÷ÓÃº¯Êýºó a µÄÖµ = " << *a << endl;
-    cout << "µ÷ÓÃº¯Êýºó b µÄÖµ = " << *b << endl;
-    cout << "µ÷ÓÃº¯Êýtemp µÄÖµ = " << temp << endl;
+    cout << "è°ƒç”¨å‡½æ•°åŽ a çš„å€¼ = " << *a << endl;
+    cout << "è°ƒç”¨å‡½æ•°åŽ b çš„å€¼ = " << *b << endl;
+    cout << "è°ƒç”¨å‡½æ•°temp çš„å€¼ = " << temp << endl;
     cout << "----------------" << endl;
     *a = *b;
-    cout << "µ÷ÓÃº¯Êýºó a µÄÖµ = " << *a << endl;
-    cout << "µ÷ÓÃº¯Êýºó b µÄÖµ = " << *b << endl;
-    cout << "µ÷ÓÃº¯Êýtemp µÄÖµ = " << temp << endl;
+    cout << "è°ƒç”¨å‡½æ•°åŽ a çš„å€¼ = " << *a << endl;
+    cout << "è°ƒç”¨å‡½æ•°åŽ b çš„å€¼ = " << *b << endl;
+    cout << "è°ƒç”¨å‡½æ•°temp çš„å€¼ = " << temp << endl;
     cout << "----------------" << endl;
     *b = temp;
-    cout << "µ÷ÓÃº¯Êýºó a µÄÖµ = " << *a << endl;
-    cout << "µ÷ÓÃº¯Êýºó b µÄÖµ = " << *b << endl;
-    cout << "µ÷ÓÃº¯Êýtemp µÄÖµ = " << temp << endl;
+    cout << "è°ƒç”¨å‡½æ•°åŽ a çš„å€¼ = " << *a << endl;
+    cout << "è°ƒç”¨å‡½æ•°åŽ b çš„å€¼ = " << *b << endl;
+    cout << "è°ƒç”¨å‡½æ•°temp çš„å€¼ = " << temp << endl;
     cout << "----------------" << endl;
 }
 
 int main() {
     int a = 1;
     int b = 2;
-    cout << "µ÷ÓÃº¯ÊýÇ° a µÄµØÖ· = " << &a << endl;
-    cout << "µ÷ÓÃº¯ÊýÇ° b µÄµØÖ· = " << &b << endl;
+    cout << "è°ƒç”¨å‡½æ•°å‰ a çš„åœ°å€ = " << &a << endl;
+    cout << "è°ƒç”¨å‡½æ•°å‰ b çš„åœ°å€ = " << &b << endl;
     swap(&a, &b);
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;

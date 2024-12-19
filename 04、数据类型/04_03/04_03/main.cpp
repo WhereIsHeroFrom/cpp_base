@@ -4,8 +4,8 @@
 using namespace std;
 
 /*
-float     4�ֽ� 0000
-double    8�ֽ� 0000
+float     4×Ö½Ú 0000
+double    8×Ö½Ú 0000
 
 */
 

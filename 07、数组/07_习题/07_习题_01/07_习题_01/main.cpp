@@ -1,9 +1,9 @@
 /*
-HDOJ 2006 求奇数的乘积
+HDOJ 2006 姹傚鏁扮殑涔樼Н
 https://acm.hdu.edu.cn/showproblem.php?pid=2006
 
-输入：反复输入n，并且跟上n个数字；
-输出：对于每组输入的数据，输出所有奇数的乘积
+杈撳叆锛氬弽澶嶈緭鍏锛屽苟涓旇窡涓妌涓暟瀛楋紱
+杈撳嚭锛氬浜庢瘡缁勮緭鍏ョ殑鏁版嵁锛岃緭鍑烘墍鏈夊鏁扮殑涔樼Н
 */
 
 #include <iostream>

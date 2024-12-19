@@ -3,15 +3,15 @@
 using namespace std;
 
 /*
-char ±äÁ¿Ãû[] = "×Ö·û´®³£Á¿";
+char å˜é‡å[] = "å­—ç¬¦ä¸²å¸¸é‡";
 
 */
 int main() {
-	char a[] = "Ó¢ĞÛËã·¨ÁªÃË";
+	char a[] = "è‹±é›„ç®—æ³•è”ç›Ÿ";
 	cout << sizeof(a) << endl;
 	cout << a << endl;
 
-	string b = "Ò¹ÉîÈË¾²Ğ´Ëã·¨";
+	string b = "å¤œæ·±äººé™å†™ç®—æ³•";
 	cout << b + ":" << endl;
 
 	return 0;

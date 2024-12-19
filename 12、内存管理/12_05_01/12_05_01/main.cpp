@@ -1,4 +1,4 @@
-// new บอ delete
+// new ยบร delete
 
 #include <iostream>
 using namespace std;

@@ -1,9 +1,9 @@
 /*
-HDOJ 2007 Æ½·½ºÍÓëÁ¢·½ºÍ
+HDOJ 2007 å¹³æ–¹å’Œä¸Žç«‹æ–¹å’Œ
 https://acm.hdu.edu.cn/showproblem.php?pid=2007
 
-ÊäÈë£º·´¸´ÊäÈë n ºÍ m£»
-Êä³ö£ºÊä³ö n µ½ m ÖÐµÄËùÓÐÅ¼ÊýµÄÆ½·½ºÍ£¬ÒÔ¼°ËùÓÐÆæÊýµÄÁ¢·½ºÍ
+è¾“å…¥ï¼šåå¤è¾“å…¥ n å’Œ mï¼›
+è¾“å‡ºï¼šè¾“å‡º n åˆ° m ä¸­çš„æ‰€æœ‰å¶æ•°çš„å¹³æ–¹å’Œï¼Œä»¥åŠæ‰€æœ‰å¥‡æ•°çš„ç«‹æ–¹å’Œ
 
 */
 

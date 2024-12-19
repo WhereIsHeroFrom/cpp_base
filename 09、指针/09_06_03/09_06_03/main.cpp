@@ -13,7 +13,7 @@ int main() {
     p = a;
     cout << p << endl;      // E0    -> EF  ->  F4
     cout << p + 1 << endl;  // F4
-    // 20 ¸ö×Ö½Ú
+    // 20 Â¸Ã¶Ã—Ã–Â½Ãš
     // 20 = 4 * 5 = sizeof(int) * 5
 
     cout << p << ':' << &a[0] << endl;

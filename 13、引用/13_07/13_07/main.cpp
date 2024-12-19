@@ -5,26 +5,26 @@ using namespace std;
 
 void allocMemory1(char *ptr, int bytes) {
     ptr = new char[bytes];
-    cout << "ptr µÄµØÖ·£º" << &ptr << endl;
+    cout << "ptr çš„åœ°å€ï¼š" << &ptr << endl;
 }
 
 void test1() {
     char* p = NULL;
     allocMemory1(p, 5);
     cout << (void*)p << endl;
-    cout << "  p µÄµØÖ·£º" << &p << endl;
+    cout << "  p çš„åœ°å€ï¼š" << &p << endl;
 }
 
 void allocMemory2(char*& ptr, int bytes) {
     ptr = new char[bytes];
-    cout << "ptr µÄµØÖ·£º" << &ptr << endl;
+    cout << "ptr çš„åœ°å€ï¼š" << &ptr << endl;
 }
 
 void test2() {
     char* p = NULL;
     allocMemory2(p, 5);
     cout << (void*)p << endl;
-    cout << "  p µÄµØÖ·£º" << &p << endl;
+    cout << "  p çš„åœ°å€ï¼š" << &p << endl;
 }
 
 int main() {

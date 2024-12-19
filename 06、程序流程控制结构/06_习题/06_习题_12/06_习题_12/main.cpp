@@ -2,8 +2,8 @@
 HDOJ 2075 A|B?
 https://acm.hdu.edu.cn/showproblem.php?pid=2075
 
-ÊäÈë£ºÊäÈëÒ»¸öt£¬´ú±ít×éÊý¾Ý£¬Ã¿×éÊý¾ÝÊäÈëÁ½¸öÊý a ºÍ b
-Êä³ö£º¶ÔÓÚÃ¿×éÊý¾Ý£¬Èç¹û aÄ£b µÈÓÚ 0£¬Êä³ö YES£¬·ñÔòÊä³ö NO
+è¾“å…¥ï¼šè¾“å…¥ä¸€ä¸ªtï¼Œä»£è¡¨tç»„æ•°æ®ï¼Œæ¯ç»„æ•°æ®è¾“å…¥ä¸¤ä¸ªæ•° a å’Œ b
+è¾“å‡ºï¼šå¯¹äºŽæ¯ç»„æ•°æ®ï¼Œå¦‚æžœ aæ¨¡b ç­‰äºŽ 0ï¼Œè¾“å‡º YESï¼Œå¦åˆ™è¾“å‡º NO
 */
 
 #include <iostream>

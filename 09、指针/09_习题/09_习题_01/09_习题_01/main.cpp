@@ -1,9 +1,9 @@
 /*
-HDOJ 2081 �ֻ��̺�
+HDOJ 2081 手机短号
 https://acm.hdu.edu.cn/showproblem.php?pid=2081
 
-���룺���� t �����ݣ�ÿ��������һ��11λ���ֻ���
-�����ÿ���������һ��6���ٸ����ֻ��ŵ�ĩ��λ
+输入：输入 t 组数据，每组数据是一个11位的手机号
+输出：每组数据输出一个6，再跟上手机号的末五位
 */
 
 #include <iostream>

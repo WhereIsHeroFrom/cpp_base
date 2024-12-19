@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-// 1、必须初始化
-// 2、初始化以后无法修改
+// 1銆佸繀椤诲垵濮嬪寲
+// 2銆佸垵濮嬪寲浠ュ悗鏃犳硶淇敼
 
 int main() {
-    // int& a; 错误写法
+    // int& a; 閿欒鍐欐硶
     int a = 3, c = 6;
     int& b = a;
     b = c;  // b = 6;

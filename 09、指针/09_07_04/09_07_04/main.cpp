@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// º¯ÊıÖ¸ÕëµÄ¶¨Òå
+// å‡½æ•°æŒ‡é’ˆçš„å®šä¹‰
 void (*fptr1) (int a, int b, int c, float d, char e);
 void (*fptr2) (int a, int b, int c, float d, char e);
 
@@ -9,7 +9,7 @@ void func1(int a, int b, int c, float d, char e) {
     cout << "func1" << endl;
 }
 
-// º¯ÊıÖ¸ÕëµÄÀàĞÍ¶¨Òå
+// å‡½æ•°æŒ‡é’ˆçš„ç±»å‹å®šä¹‰
 typedef void (*fptr) (int a, int b, int c, float d, char e);
 
 int main() {

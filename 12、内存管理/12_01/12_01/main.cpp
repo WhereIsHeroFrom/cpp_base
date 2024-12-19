@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// ´úÂëÇø¡¢È«¾ÖÇø¡¢Õ»Çø¡¢¶ÑÇø
+// ä»£ç åŒºã€å…¨å±€åŒºã€æ ˆåŒºã€å †åŒº
 
 void printMessage() {
     cout << "Hello world!" << endl;

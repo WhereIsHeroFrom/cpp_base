@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// º¯ÊýÖ¸Õë
+// ÂºÂ¯ÃŠÄ±Ã–Â¸Ã•Ã«
 double (*ptr)(int a, int b, int c);
 void (*ptr1)(int a, int b);
 
@@ -17,7 +17,7 @@ void func1(int a, int b) {
 int main() {
     ptr = func;
     ptr(4, 5, 6);
-    // ptr = func1; ´íÎó
+    // ptr = func1; Â´Ã­ÃŽÃ³
     ptr1 = func1;
     ptr1(5, 6);
 

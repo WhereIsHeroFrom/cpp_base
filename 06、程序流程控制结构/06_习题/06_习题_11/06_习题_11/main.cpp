@@ -1,9 +1,9 @@
 /*
-HDOJ 2033 �˼��˰�A+B
+HDOJ 2033 人见人爱A+B
 https://acm.hdu.edu.cn/showproblem.php?pid=2033
 
-���룺����һ��t������t�����ݣ�ÿ��������������ʱ�䣬ʱ��ֱ�Ϊʱ����
-��������t�У�ÿһ����һ��ʱ�䣬������������������ʱ��ļӺͣ�ע�⿼�ǽ�λ
+输入：输入一个t，代表t组数据，每组数据输入两个时间，时间分别为时分秒
+输出：输出t行，每一行是一个时间，代表这组数据下两个时间的加和，注意考虑进位
 */
 
 #include <iostream>

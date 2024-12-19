@@ -1,9 +1,9 @@
 /*
-HDOJ 2096 Ð¡Ã÷A+B
+HDOJ 2096 å°æ˜ŽA+B
 https://acm.hdu.edu.cn/showproblem.php?pid=2096
 
-ÊäÈë£ºÏÈÊäÈëÒ»¸öt£¬È»ºót×éÊý¾Ý£¬Ã¿×éÊý¾ÝÊäÈëaºÍb£»
-Êä³ö£ºÊä³ö t ÐÐ£¬Ã¿Ò»ÐÐ´ú±í a ºÍ b µÄºÍ£¬²¢ÇÒÄ£ÉÏ100£»
+è¾“å…¥ï¼šå…ˆè¾“å…¥ä¸€ä¸ªtï¼Œç„¶åŽtç»„æ•°æ®ï¼Œæ¯ç»„æ•°æ®è¾“å…¥aå’Œbï¼›
+è¾“å‡ºï¼šè¾“å‡º t è¡Œï¼Œæ¯ä¸€è¡Œä»£è¡¨ a å’Œ b çš„å’Œï¼Œå¹¶ä¸”æ¨¡ä¸Š100ï¼›
 */
 
 #include <iostream>

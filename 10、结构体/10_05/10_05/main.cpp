@@ -11,7 +11,7 @@ struct Circle {
 };
 
 void printCircle(const Circle *c) {
-    // c->pt.x += 1; 常量不可修改
+    // c->pt.x += 1; 甯搁噺涓嶅彲淇敼
     cout << "(" << c->pt.x << "," << c->pt.y << ") " << c->radius << endl;
 }
 

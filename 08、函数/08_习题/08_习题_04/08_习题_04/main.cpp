@@ -1,9 +1,9 @@
 /*
-HDOJ 2039 Èý½ÇÐÎ
+HDOJ 2039 ä¸‰è§’å½¢
 https://acm.hdu.edu.cn/showproblem.php?pid=2039
 
-ÊäÈë£ºÊäÈë t ×éÊý¾Ý£¬Ã¿×éÊý¾ÝÊÇÈý¸öÊý a b c
-Êä³ö£º¶ÔÓÚÃ¿×éÊý¾Ý£¬Èç¹ûÈý¸öÊýÄÜ¹»×é³ÉÈý½ÇÐÎ£¬¾ÍÊä³ö YES£»·ñÔòÊä³ö NO
+è¾“å…¥ï¼šè¾“å…¥ t ç»„æ•°æ®ï¼Œæ¯ç»„æ•°æ®æ˜¯ä¸‰ä¸ªæ•° a b c
+è¾“å‡ºï¼šå¯¹äºŽæ¯ç»„æ•°æ®ï¼Œå¦‚æžœä¸‰ä¸ªæ•°èƒ½å¤Ÿç»„æˆä¸‰è§’å½¢ï¼Œå°±è¾“å‡º YESï¼›å¦åˆ™è¾“å‡º NO
 
 */
 

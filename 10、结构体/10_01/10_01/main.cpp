@@ -2,30 +2,30 @@
 #include <string>
 using namespace std;
 
-// 1. ½á¹¹Ìå¶¨Òå
-// struct ½á¹¹ÌåÃû { ½á¹¹Ìå³ÉÔ±±äÁ¿ÁĞ±í };
+// 1. ç»“æ„ä½“å®šä¹‰
+// struct ç»“æ„ä½“å { ç»“æ„ä½“æˆå‘˜å˜é‡åˆ—è¡¨ };
 struct Book {
 	string name;
 	double price;
 	int value;
 }cpp;
 
-// 2. ´´½¨½á¹¹Ìå
+// 2. åˆ›å»ºç»“æ„ä½“
 
 int main() {
 	// 2.1 
 	Book c;
-	c.name = "CÓïÑÔ³ÌĞòÉè¼Æ";
+	c.name = "Cè¯­è¨€ç¨‹åºè®¾è®¡";
 	c.price = 39.99;
 	c.value = 10;
 	cout << c.name << ' ' << c.price << ' ' << c.value << endl;
 	
 	// 2.2
-	Book py = { "Python±à³Ì", 1999, 10 };
+	Book py = { "Pythonç¼–ç¨‹", 1999, 10 };
 	cout << py.name << ' ' << py.price << ' ' << py.value << endl;
 
 	// 2.3 
-	cpp.name = "C++Áã»ù´¡±à³Ì";
+	cpp.name = "C++é›¶åŸºç¡€ç¼–ç¨‹";
 	cpp.price = 9999999;
 	cpp.value = 10000000;
 	cout << cpp.name << ' ' << cpp.price << ' ' << cpp.value << endl;

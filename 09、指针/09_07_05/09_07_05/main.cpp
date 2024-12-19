@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// 函数指针数组
-// [函数指针1, 函数指针2, ... ]
+// 鍑芥暟鎸囬拡鏁扮粍
+// [鍑芥暟鎸囬拡1, 鍑芥暟鎸囬拡2, ... ]
 
 typedef void (*fptr) (int a, int b, double c, float d, char e);
 typedef void (*fptrs[56]) (int a, int b, double c, float d, char e);

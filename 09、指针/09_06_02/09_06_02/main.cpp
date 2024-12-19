@@ -6,7 +6,7 @@ int main() {
     char a[] = "I";
     char b[] = "love";
     char c[] = "you";
-    // Ö¸ÕëÊı×é
+
     char* p[3];
     p[0] = a;
     p[1] = b;

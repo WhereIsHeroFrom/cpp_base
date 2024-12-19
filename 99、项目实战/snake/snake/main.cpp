@@ -6,10 +6,10 @@ using namespace std;
 #define H 28
 #define W 60
 const int dir[4][2] = {
-    {-1, 0},   // …œ 
-    {0, 1},    // ”“
-    {1, 0},    // œ¬
-    {0, -1}    // ◊Û
+    {-1, 0},   // √â√è 
+    {0, 1},    // √ì√í
+    {1, 0},    // √è√Ç
+    {0, -1}    // √ó√≥
 };
 enum BlockType {
     EMPTY = 0,
@@ -63,30 +63,30 @@ void drawUnit(Pos p, const char unit[]) {
 }
 void drawMap(Map* map) {
     system("cls");
-    cout << "©≥";
+    cout << "¬©¬≥";
     for (int x = 0; x < W; ++x) {
-        cout << "©•";
+        cout << "¬©¬•";
     }
-    cout << "©∑" << endl;
+    cout << "¬©¬∑" << endl;
 
     for (int y = 0; y < H; ++y) {
-        cout << "©ß";
+        cout << "¬©¬ß";
         for (int x = 0; x < W; ++x) {
             if (map->data[y][x] == BlockType::EMPTY) {
                 cout << " ";
             }
         }
-        cout << "©ß" << endl;
+        cout << "¬©¬ß" << endl;
     }
-    cout << "©ª";
+    cout << "¬©¬ª";
     for (int x = 0; x < W; ++x) {
-        cout << "©•";
+        cout << "¬©¬•";
     }
-    cout << "©ø";
+    cout << "¬©¬ø";
 }
 void drawSnake(Snake* snk) {
     for (int i = 0; i < snk->snakeLength; ++i) {
-        drawUnit(snk->snake[i], "°ˆ");
+        drawUnit(snk->snake[i], "¬°√∂");
     }
 }
 
@@ -139,7 +139,7 @@ void checkEatFood(Snake* snk, Pos tail, Map* map) {
         snk->snake[snk->snakeLength++] = tail;
         map->data[head.y][head.x] = BlockType::EMPTY;
         map->hasFood = false;
-        drawUnit(tail, "°ˆ");
+        drawUnit(tail, "¬°√∂");
     }
 }
 
@@ -151,7 +151,7 @@ bool doMove(Snake* snk, Map* map) {
         return false;
     }
     checkEatFood(snk, tail, map);
-    drawUnit(snk->snake[0], "°ˆ");
+    drawUnit(snk->snake[0], "¬°√∂");
     return true;
 }
 
@@ -180,7 +180,7 @@ void checkFoodGenerate(Snake* snk, Map* map) {
             if (i == snk->snakeLength) {
                 map->data[y][x] = BlockType::FOOD;
                 map->hasFood = true;
-                drawUnit({ x,y }, "°Ò");
+                drawUnit({ x,y }, "¬°√±");
                 return;
             }
         }

@@ -6,19 +6,19 @@ int main() {
 	cin >> a;
 
 	if (a == 0) {
-		cout << "Ò¹ÉîÈË¾²Ð´Ëã·¨" << endl;
+		cout << "å¤œæ·±äººé™å†™ç®—æ³•" << endl;
 	}
 	else if (a == 1) {
-		cout << "Ó¢ÐÛÄÄÀï³öÀ´" << endl;
+		cout << "è‹±é›„å“ªé‡Œå‡ºæ¥" << endl;
 	}
 	else if (a == 2) {
-		cout << "Ëã·¨´óÊ¦ÐÖ" << endl;
+		cout << "ç®—æ³•å¤§å¸ˆå…„" << endl;
 	}
 	else if (a == 3) {
-		cout << "Ó¢ÐÛ±à³Ì" << endl;
+		cout << "è‹±é›„ç¼–ç¨‹" << endl;
 	}
 	else {
-		cout << "Ó¢ÐÛËã·¨ÁªÃË" << endl;
+		cout << "è‹±é›„ç®—æ³•è”ç›Ÿ" << endl;
 	}
 
 	return 0;

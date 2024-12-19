@@ -3,7 +3,7 @@ using namespace std;
 
 int* getGapList(int *arr, int size) {
     int *p = new int[size - 1];
-    // int a[size-1];  return a;  a ÊÇÕ»ÉÏµÄÄÚ´æ£¬²»ÄÜ×÷Îª·µ»ØÖµ·µ»Ø
+    // int a[size-1];  return a;  a æ˜¯æ ˆä¸Šçš„å†…å­˜ï¼Œä¸èƒ½ä½œä¸ºè¿”å›å€¼è¿”å›
     for (int i = 0; i < size - 1; ++i) {
         p[i] = arr[i + 1] - arr[i];
     }

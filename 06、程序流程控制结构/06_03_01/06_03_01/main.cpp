@@ -2,34 +2,34 @@
 using namespace std;
 
 int main() {
-	// 1. while ÖÐµÄ break;
+	// 1. while ä¸­çš„ break;
 	int cnt = 0;
 	while (1) {
 		cnt++;
-		cout << "µ±Ç°´ÎÊýÎª£º" << cnt << endl;
+		cout << "å½“å‰æ¬¡æ•°ä¸ºï¼š" << cnt << endl;
 		if (cnt > 20) {
 			break;
 		}
 	}
 	cout << "----------------" << endl;
 
-	// 2. for ÖÐµÄbreak;
+	// 2. for ä¸­çš„break;
 	cnt = 20;
 	for (int i = 1; ; ++i) {
-		cout << "µ±Ç°´ÎÊýÎª£º" << i << endl;
+		cout << "å½“å‰æ¬¡æ•°ä¸ºï¼š" << i << endl;
 		if (i > cnt) {
 			break;
 		}
 	}
 
-	// 3. switch case ÖÐµÄ break
+	// 3. switch case ä¸­çš„ break
 	int a = 1;
 	switch (a) {
 	case 1:
-		cout << "Ó¢ÐÛËã·¨ÁªÃË" << endl;
+		cout << "è‹±é›„ç®—æ³•è”ç›Ÿ" << endl;
 		break;
 	case 2:
-		cout << "Ò¹ÉîÈË¾²Ð´Ëã·¨" << endl;
+		cout << "å¤œæ·±äººé™å†™ç®—æ³•" << endl;
 	}
 
 

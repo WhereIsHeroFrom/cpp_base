@@ -2,9 +2,9 @@
 HDOJ 2055 An easy problem
 https://acm.hdu.edu.cn/showproblem.php?pid=2055
 
-¶¨Òå f(A) = 1, f(a) = -1, f(B) = 2, f(b) = -2, ... f(Z) = 26, f(z) = -26;
-ÊäÈë£ºÊäÈëÒ»¸öt£¬´ú±ít×éÊý¾Ý£¬Ã¿×éÊý¾ÝÊäÈë×Ö·û x ºÍÕûÊý y
-Êä³ö£º¶ÔÓÚÃ¿×éÊý¾Ý£¬Êä³ö y+f(x) µÄÖµ
+å®šä¹‰ f(A) = 1, f(a) = -1, f(B) = 2, f(b) = -2, ... f(Z) = 26, f(z) = -26;
+è¾“å…¥ï¼šè¾“å…¥ä¸€ä¸ªtï¼Œä»£è¡¨tç»„æ•°æ®ï¼Œæ¯ç»„æ•°æ®è¾“å…¥å­—ç¬¦ x å’Œæ•´æ•° y
+è¾“å‡ºï¼šå¯¹äºŽæ¯ç»„æ•°æ®ï¼Œè¾“å‡º y+f(x) çš„å€¼
 */
 
 #include <iostream>

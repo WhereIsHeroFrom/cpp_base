@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 
-// 1. ½á¹¹Ìå¶¨Òå
-// struct ½á¹¹ÌåÃû { ½á¹¹Ìå³ÉÔ±±äÁ¿ÁÐ±í };
+// 1. ç»“æž„ä½“å®šä¹‰
+// struct ç»“æž„ä½“å { ç»“æž„ä½“æˆå‘˜å˜é‡åˆ—è¡¨ };
 struct Book {
 	string name;
 	double price;
@@ -11,9 +11,9 @@ struct Book {
 };
 
 int main() {
-	Book b = {"CÓïÑÔ", 99.99, 7};
+	Book b = {"Cè¯­è¨€", 99.99, 7};
 	Book c = b;
-	c.name = "CÓïÑÔÈëÃÅ";
+	c.name = "Cè¯­è¨€å…¥é—¨";
 	Book* pb = &b;
 	pb->name = "C++";
 	cout << b.name << ' ' << b.price << ' ' << b.value << endl;

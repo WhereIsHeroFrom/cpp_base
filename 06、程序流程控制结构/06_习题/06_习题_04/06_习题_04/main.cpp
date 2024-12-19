@@ -2,8 +2,8 @@
 HDOJ 1091 A+B for Input-Output Practice (III)
 https://acm.hdu.edu.cn/showproblem.php?pid=1091
 
-ÊäÈë£º·´¸´ÊäÈë a ºÍ b£¬µ± a ºÍ b ¶¼µÈÓÚ 0 µÄÊ±ºò£¬³ÌÐò½áÊø£»
-Êä³ö£ºa ºÍ b µÄºÍ
+è¾“å…¥ï¼šåå¤è¾“å…¥ a å’Œ bï¼Œå½“ a å’Œ b éƒ½ç­‰äºŽ 0 çš„æ—¶å€™ï¼Œç¨‹åºç»“æŸï¼›
+è¾“å‡ºï¼ša å’Œ b çš„å’Œ
 */
 
 #include <iostream>

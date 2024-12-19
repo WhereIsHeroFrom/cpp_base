@@ -4,14 +4,14 @@ using namespace std;
 int main() {
 	int n;
 	while (cin >> n) {
-		/* 1. Ð´·¨1
+		/* 1. å†™æ³•1
 		int sum = 0;
 		for (int i = 1; i <= n; ++i) {
 			sum += i;
 		}
 		cout << sum << endl;
 		*/
-		/* 2. Ð´·¨2
+		/* 2. å†™æ³•2
 		int sum = 0;
 		int i = 1;
 		for (; i <= n; ++i) {
@@ -19,7 +19,7 @@ int main() {
 		}
 		cout << sum << endl;
 		*/
-		/* 3. Ð´·¨3
+		/* 3. å†™æ³•3
 		int sum;
 		int i;
 		for (sum = 0, i = 1; i <= n; ++i) {
@@ -27,7 +27,7 @@ int main() {
 		}
 		cout << sum << endl;
 		*/
-		/* 4. Ð´·¨4:ËÀÑ­»·
+		/* 4. å†™æ³•4:æ­»å¾ªçŽ¯
 		int sum;
 		int i;
 		for (sum = 0, i = 1; ; ++i) {

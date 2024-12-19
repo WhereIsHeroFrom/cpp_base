@@ -2,16 +2,16 @@
 using namespace std;
 
 char* func() {
-    char c[20] = "Ó¢ĞÛÄÄÀï³öÀ´";
+    char c[20] = "è‹±é›„å“ªé‡Œå‡ºæ¥";
     return c;
 }
 
 void test(int a, int b) {
     int c, d;
-    cout << "ĞÎÊ½²ÎÊıaµÄµØÖ·£º" << &a << endl;
-    cout << "ĞÎÊ½²ÎÊıbµÄµØÖ·£º" << &b << endl;
-    cout << "¾Ö²¿±äÁ¿cµÄµØÖ·£º" << &c << endl;
-    cout << "¾Ö²¿±äÁ¿dµÄµØÖ·£º" << &d << endl;
+    cout << "å½¢å¼å‚æ•°açš„åœ°å€ï¼š" << &a << endl;
+    cout << "å½¢å¼å‚æ•°bçš„åœ°å€ï¼š" << &b << endl;
+    cout << "å±€éƒ¨å˜é‡cçš„åœ°å€ï¼š" << &c << endl;
+    cout << "å±€éƒ¨å˜é‡dçš„åœ°å€ï¼š" << &d << endl;
 }
 
 

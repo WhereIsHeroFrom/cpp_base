@@ -2,8 +2,8 @@
 HDOJ 1096 A+B for Input-Output Practice (VIII)
 https://acm.hdu.edu.cn/showproblem.php?pid=1096
 
-ÊäÈë£ºÊäÈëÒ»¸öt£¬´ú±íÓÐt×éÊý¾Ý£»Ã¿×éÊý¾ÝÊäÈëÒ»¸ön£¬ÊäÈën¸öÊý£»
-Êä³ö£ºÊä³ö t ¸öÊý£¬´ú±íÃ¿×éÊý¾ÝµÄÔªËØºÍ£¬ÇÒ t ¸öÊýÖ®¼ä¼ÓÉÏÒ»¸ö»»ÐÐ£»
+è¾“å…¥ï¼šè¾“å…¥ä¸€ä¸ªtï¼Œä»£è¡¨æœ‰tç»„æ•°æ®ï¼›æ¯ç»„æ•°æ®è¾“å…¥ä¸€ä¸ªnï¼Œè¾“å…¥nä¸ªæ•°ï¼›
+è¾“å‡ºï¼šè¾“å‡º t ä¸ªæ•°ï¼Œä»£è¡¨æ¯ç»„æ•°æ®çš„å…ƒç´ å’Œï¼Œä¸” t ä¸ªæ•°ä¹‹é—´åŠ ä¸Šä¸€ä¸ªæ¢è¡Œï¼›
 */
 
 #include <iostream>

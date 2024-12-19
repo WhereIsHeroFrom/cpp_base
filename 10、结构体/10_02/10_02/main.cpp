@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 
-// 1. ½á¹¹Ìå¶¨Òå
-// struct ½á¹¹ÌåÃû { ½á¹¹Ìå³ÉÔ±±äÁ¿ÁÐ±í };
+// 1. ç»“æž„ä½“å®šä¹‰
+// struct ç»“æž„ä½“å { ç»“æž„ä½“æˆå‘˜å˜é‡åˆ—è¡¨ };
 struct Book {
 	string name;
 	double price;
@@ -11,14 +11,14 @@ struct Book {
 }cpp;
 
 int main() {
-	// 2. ´´½¨Ò»¸ö½á¹¹ÌåÊý×é
-	// Book Êý×éÃû[ÔªËØ¸öÊý] = { {}, {}, {}, ... };
+	// 2. åˆ›å»ºä¸€ä¸ªç»“æž„ä½“æ•°ç»„
+	// Book æ•°ç»„å[å…ƒç´ ä¸ªæ•°] = { {}, {}, {}, ... };
 	Book books[3] = {
-		{"CÓïÑÔ³ÌÐòÉè¼Æ", 199.99, 7},
-		{"PythonÁã»ù´¡", 399.99, 9},
-		{"C++Áã»ù´¡", 39.99, 1000000}
+		{"Cè¯­è¨€ç¨‹åºè®¾è®¡", 199.99, 7},
+		{"Pythoné›¶åŸºç¡€", 399.99, 9},
+		{"C++é›¶åŸºç¡€", 39.99, 1000000}
 	};
-	books[2].name = "C++ÈëÃÅµ½ÈëÍÁ£¡";
+	books[2].name = "C++å…¥é—¨åˆ°å…¥åœŸï¼";
 	for (int i = 0; i < 3; ++i) {
 		cout << books[i].name << ' ' << books[i].price << ' ' << books[i].value << endl;
 	}

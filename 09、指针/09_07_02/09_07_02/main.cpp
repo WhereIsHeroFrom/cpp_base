@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// ָ�뺯��
+// Ö¸Õëº¯Êı
 int* func() {
     return NULL;
 }

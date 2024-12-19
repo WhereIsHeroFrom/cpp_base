@@ -1,9 +1,9 @@
 /*
-HDOJ 2000 ASCIIÂëÅÅÐò
+HDOJ 2000 ASCIIç æŽ’åº
 https://acm.hdu.edu.cn/showproblem.php?pid=2000
 
-ÊäÈë£ºÒ»¸öÈý¸ö×Ö·ûµÄ×Ö·û´®
-Êä³ö£ºÊä³öÈý¸ö×Ö·ûÅÅÐòºóµÄ½á¹û£¬²¢ÓÃ¿Õ¸ñ½øÐÐ·Ö¸î
+è¾“å…¥ï¼šä¸€ä¸ªä¸‰ä¸ªå­—ç¬¦çš„å­—ç¬¦ä¸²
+è¾“å‡ºï¼šè¾“å‡ºä¸‰ä¸ªå­—ç¬¦æŽ’åºåŽçš„ç»“æžœï¼Œå¹¶ç”¨ç©ºæ ¼è¿›è¡Œåˆ†å‰²
 
 */
 
